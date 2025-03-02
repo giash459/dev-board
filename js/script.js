@@ -94,7 +94,7 @@ const now = new Date();
 document.getElementById('current-day').innerText = now.toLocaleDateString('en-US', { weekday: 'short' }) + ",";
 document.getElementById('current-date').innerText = now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 
-const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'tomato']
+const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'tomato', 'gray']
 let index = 0;
 document.getElementById('bg-change-btn')
 .addEventListener('click', function(){
